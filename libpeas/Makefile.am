@@ -17,13 +17,14 @@ libpeas_1_0_la_LDFLAGS = \
 libpeas_1_0_la_LIBADD = $(PEAS_LIBS) $(IGE_MAC_LIBS)
 
 INST_H_FILES =			\
-	peas-plugin-info.h	\
-	peas-object-module.h	\
-	peas-extension-base.h	\
-	peas-extension.h	\
-	peas-extension-set.h	\
 	peas-activatable.h	\
 	peas-engine.h		\
+	peas-extension.h	\
+	peas-extension-base.h	\
+	peas-extension-set.h	\
+	peas-interpreter.h		\
+	peas-plugin-info.h	\
+	peas-object-module.h	\
 	peas.h
 
 NOINST_H_FILES =			\
@@ -37,20 +38,21 @@ NOINST_H_FILES =			\
 	peas-plugin-loader.h
 
 C_FILES =				\
+	peas-activatable.c	\
 	peas-debug.c			\
 	peas-dirs.c			\
-	peas-helpers.c			\
-	peas-i18n.c			\
-	peas-object-module.c		\
-	peas-introspection.c		\
-	peas-plugin-info.c		\
-	peas-plugin-loader.c		\
+	peas-engine.c		\
 	peas-extension-base.c		\
 	peas-extension.c		\
 	peas-extension-set.c		\
 	peas-extension-subclasses.c	\
-	peas-activatable.c		\
-	peas-engine.c
+	peas-helpers.c			\
+	peas-i18n.c			\
+	peas-interpreter.c		\
+	peas-introspection.c		\
+	peas-object-module.c		\
+	peas-plugin-info.c		\
+	peas-plugin-loader.c
 
 BUILT_SOURCES = \
 	peas-marshal.c			\

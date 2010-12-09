@@ -19,15 +19,21 @@ libpeas_gtk_1_0_la_LIBADD = \
 
 INST_H_FILES = \
 	peas-gtk-configurable.h		\
+	peas-gtk-console.h	\
 	peas-gtk-plugin-manager.h	\
 	peas-gtk-plugin-manager-view.h	\
 	peas-gtk.h
 
 NOINST_H_FILES = \
+	peas-gtk-console-buffer.h	\
+	peas-gtk-console-history.h	\
 	peas-gtk-plugin-manager-store.h
 
 C_FILES = \
 	peas-gtk-configurable.c		\
+	peas-gtk-console.c	\
+	peas-gtk-console-buffer.c	\
+	peas-gtk-console-history.c	\
 	peas-gtk-plugin-manager.c	\
 	peas-gtk-plugin-manager-store.c	\
 	peas-gtk-plugin-manager-view.c

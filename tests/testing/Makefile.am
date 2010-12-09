@@ -10,6 +10,7 @@ INTROSPECTION_INCLUDES = \
 	-DSRC_DIR="\"$(abs_top_srcdir)\""	\
 	-DTESTING_COMPILATION
 
+# Introspection does not like these
 INCLUDES = \
 	$(WARN_CFLAGS)		\
 	$(DISABLE_DEPRECATED)
@@ -38,6 +39,10 @@ INCLUDES += \
 libtesting_1_0_la_LIBADD += \
 	$(PEAS_GTK_LIBS)				\
 	$(top_builddir)/libpeas-gtk/libpeas-gtk-1.0.la
+
+libtesting_1_0_la_SOURCES += \
+	testing-interpreter.h	\
+	testing-interpreter.c
 endif
 
 INCLUDES += $(INTROSPECTION_INCLUDES)

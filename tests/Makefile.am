@@ -1,7 +1,7 @@
 SUBDIRS = plugins testing libpeas
 
 if ENABLE_GTK
-#SUBDIRS += libpeas-gtk
+SUBDIRS += libpeas-gtk
 endif
 
 EXTRA_DIST = Makefile.am.tests

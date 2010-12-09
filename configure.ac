@@ -304,6 +304,7 @@ peas-demo/plugins/seedhello/Makefile
 po/Makefile.in
 tests/Makefile
 tests/libpeas/Makefile
+tests/libpeas-gtk/Makefile
 tests/plugins/Makefile
 tests/plugins/has-dep/Makefile
 tests/plugins/invalid-iage/Makefile

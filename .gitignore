@@ -64,4 +64,5 @@ Makefile.in
 /tests/libpeas/engine
 /tests/libpeas/extension
 /tests/libpeas/extension-set
+/tests/libpeas-gtk/console
 /xmldocs.make

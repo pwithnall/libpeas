@@ -27,6 +27,7 @@
 #define __TESTING_H_INSIDE__
 
 #include "testing-engine.h"
+#include "testing-interpreter.h"
 #include "testing-unimplementable.h"
 
 #undef __TESTING_H_INSIDE__
