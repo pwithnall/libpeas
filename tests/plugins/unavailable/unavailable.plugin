@@ -1,0 +1,6 @@
+[Plugin]
+Module=unavailable
+IAge=2
+Name=Unavailable
+Description=This plugin cannot be loaded.
+Depends=does-not-exist

@@ -1,0 +1,5 @@
+[Plugin]
+Module=loadable
+IAge=2
+Name=Loadable
+Description=This plugin can be loaded.

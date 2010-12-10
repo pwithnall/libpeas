@@ -302,6 +302,15 @@ peas-demo/plugins/pythonhello/Makefile
 peas-demo/plugins/secondtime/Makefile
 peas-demo/plugins/seedhello/Makefile
 po/Makefile.in
+tests/Makefile
+tests/libpeas/Makefile
+tests/plugins/Makefile
+tests/plugins/has-dep/Makefile
+tests/plugins/invalid-iage/Makefile
+tests/plugins/loadable/Makefile
+tests/plugins/self-dep/Makefile
+tests/plugins/unavailable/Makefile
+tests/testing/Makefile
 ])
 
 AC_OUTPUT

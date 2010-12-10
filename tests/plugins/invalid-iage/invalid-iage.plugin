@@ -1,0 +1,5 @@
+[Plugin]
+Module=invalid-iage
+IAge=0
+Name=Invalid IAge
+Description=This plugin can be loaded because of an invalid IAge.

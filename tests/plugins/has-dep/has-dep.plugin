@@ -1,0 +1,6 @@
+[Plugin]
+Module=has-dep
+IAge=2
+Name=Has Dep
+Description=This plugin can be loaded and has a dep.
+Depends=loadable
